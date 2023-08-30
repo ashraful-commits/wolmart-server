@@ -14,7 +14,7 @@ import { brandLogo } from "../middlewares/multer.js";
 
 
 const BrandRoute = express.Router();
-BrandRoute.use(tokenVerify)
+
 
 
 BrandRoute.get("/", GetAllBrandProducts).post(
