@@ -22,7 +22,7 @@ const port = process.env.PORT || 5000;
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://wolmart-server-2.onrender.com",
     credentials: true,
   })
 );
